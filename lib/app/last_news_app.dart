@@ -21,6 +21,7 @@ class LastNewsApp extends StatelessWidget {
         ],
         child: MaterialApp(
           scrollBehavior: const ScrollBehavior().copyWith(overscroll: false),
+          title: 'Last News',
           debugShowCheckedModeBanner: false,
           theme: AppTheme.lightMode,
           home: const OnBoardingScreen(),

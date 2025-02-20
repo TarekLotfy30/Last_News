@@ -2,95 +2,69 @@
 
 Last News app is your personalized news aggregator, designed to keep you informed and connected with the world. Our app curates the latest Business, Sports, Entertainment, Health ,science and Electronics news from various global sources, providing you with a comprehensive and diverse news feed.
 
-## :memo: Overview :
+## :memo: Overview
 
-- Last News app adopts a modern MVVM architecture with BLoC (Business Logic Component) for efficient state management, ensuring a smooth and engaging user experience. The app curates the latest Business, Sports, Entertainment, Health, Science, and Electronics news from multiple global sources, providing users with a comprehensive and diverse news feed tailored to their interests. With a focus on performance and usability, Last News app offers seamless navigation, real-time updates, and personalized content recommendations, keeping users informed and connected with the world effortlessly.
+- Last News app adopts  MVVM architecture with Cubit for efficient state management, ensuring a smooth and engaging user experience. The app curates the latest Business, Sports, Entertainment, Health, Science, and Electronics news from multiple global sources, providing users with a comprehensive and diverse news feed tailored to their interests. With a focus on performance and usability, Last News app offers seamless navigation, real-time updates, and personalized content recommendations, keeping users informed and connected with the world effortlessly.
 
 - [Project in linkedin](https://www.linkedin.com/posts/tarek-lotfi_newsapp-mobileappdevelopment-flutterdev-activity-7160229958378795009-59z5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADCwxm4BFQbdO2pxnpnxvLbJbhZ1G5KvLss)
 
-## 🤳 Screens :
+## 🤳 Screens
 
 - **Splash Screen**: A welcoming first glance.
-- **Home Page**: Browse popular and recommended books.
-- **Detailed Book Views**: Insights on every book.
-- **Free Book Previews**: Try before you commit.
-- **Search Functionality**: Find books with ease.
-- **Book Recommendations**: Personalized picks for you.
-
+- **Onboarding**: Guides new users through the app’s core features and personalization settings.
+- **Home Page**: The central hub for popular and personalized news recommendations.
+- **Category Page**: Explore news articles sorted by categories like Business, Sports, Health, and more.
+- **All News**: Displays the latest and trending news from multiple categories.
+- **Profile Page**: Manage user preferences, bookmarks, and app settings.
+- **Search Functionality**: Quickly find news articles, topics, and categories of interest.
+- **WebView**: Seamless in-app browser for reading full articles without leaving the app.
 
 ## 📁 File Structure
 
-![image](https://github.com/AmmarAgeeza/Up-To-Do-App/assets/72443818/6bf5b32f-abb6-4a88-b96c-e67133dc7618)
+![Image](https://github.com/user-attachments/assets/bad6be9c-09c0-4eea-95d9-012401873887)
 
-## :computer: Tech Stack :
+## :computer: Tech Stack
 
 - **Flutter**
 - **Cubit**
 - **API Integration**
 - **MVVM Architecture**
-- **Repository design pattern**
-- **Dependency Injection**
 - **Launch Custom URL**
-- **Handling exceptions with DioException**
-- **Animations**
 - **Reusable components**
-- **Routing**
 
-## :package: Dependencies :
+## :package: Dependencies
 
-- `font_awesome_flutter`: For beautiful icons.
-- `equatable`: Simplify state comparison.
-- `dartz`: Functional programming in Dart.
-- `dio`: Robust HTTP client for Dart.
-- `url_launcher`: Navigate to URLs easily.
+- `flutter_svg`:  Render SVG images flawlessly.
+- `persistent_bottom_nav_bar_v2`: Elegant bottom navigation with persistence.
+- `webview_flutter`:  Display web content seamlessly in the app.
+- `connectivity_plus`: Monitor and manage network connectivity.
+- `flutter_styled_toast`: Customizable and stylish toast messages.
 - `flutter_bloc`: Manage state with BLoC pattern.
-- `get_it`: Service locator for dependency injection.
-- `cached_network_image`: Efficient image loading.
-- `google_fonts`: Customizable typography.
-- `pretty_dio_logger`: Debug API calls gracefully.
+- `loading_animation_widget`: Engaging loading animations.
 
-```pubspec.yaml
-  date_picker_timeline: 
-  flutter_bloc: 
-  flutter_screenutil: 
-  fluttertoast: 
-  get_it: 
-  google_fonts: 
-  intl: 
-  shared_preferences: 
-  smooth_page_indicator: 
-  sqflite: 
-  flutter_local_notifications: 
-  timezone: 
-  flutter_timezone: 
-  workmanager: 
-```
+## 📸 UI
 
-## 📸 UI :
+| Splash Screen                      |Onboarding                      |
+|------------------------------------|--------------------------------|
+| ![splash.png](https://github.com/user-attachments/assets/50323926-d69b-4ea2-b47c-ec070bbce755) | ![Onboarding.png](https://github.com/user-attachments/assets/6e66bf5a-56aa-41f6-b54a-b279fe0b16f2)|
 
-![2](https://github.com/AmmarAgeeza/Up-To-Do-App/assets/72443818/bd589d06-bb71-4010-9899-709ead2d9545)
+| Home (News View)                   | Home (News View)               |
+|------------------------------------|--------------------------------|
+| ![splash.png](https://github.com/user-attachments/assets/1860d347-5eb7-48a8-bf58-3811e620dc52) | ![home.png](https://github.com/user-attachments/assets/96d8fabc-0dbc-47da-bb84-09b9069c032d) |
 
-![3](https://github.com/AmmarAgeeza/Up-To-Do-App/assets/72443818/a0583e2a-5a9e-4852-ac85-1bd9ec0d312b)
+| Category News                      | Hot Updates                    |
+|------------------------------------|------------------------------- |
+| ![splash.png](https://github.com/user-attachments/assets/b6784182-2e01-43e1-a7cd-cd7e75e7b850) | ![home.png](https://github.com/user-attachments/assets/156522e6-0261-499e-8ec1-bcd52a16a9e7) |
 
-
-<img src = "https://github.com/TarekLotfy30/bookly_app/assets/117456407
-/ebf2476b-19df-48bf-9e90-994e4447e912" width="200">
-<img src="https://github.com/TarekLotfy30/bookly_app/assets/117456407
-/279f0c8f-b0fd-44e8-84cb-1c5c8045f1c1" width="200">
-<img src="https://github.com/TarekLotfy30/bookly_app/assets/117456407
-/72f2d607-c1e4-44c0-910e-5b7984b30ac3" width="200">
-<img src="https://github.com/TarekLotfy30/bookly_app/assets/117456407
-/0d86bded-734b-48f8-813f-92b224958e7c" width="200"  height="450">
-
-| Splash Screen                      |       Home (Books View)        |
+| Search Screen                      | Profile                        |
 |------------------------------------|:------------------------------:|
-| ![splash.png](./assets/splash.png) | ![home.png](./assets/home.png) |
+| ![splash.png](https://github.com/user-attachments/assets/3191c68b-21fc-41df-97c3-e74f40e6d759) | ![home.png](https://github.com/user-attachments/assets/0da7423e-dea5-4d5b-a6e4-d22c10a2574a) |
 
-### :video_camera: Demo :
+### :video_camera: Demo
 
-| Application Demo                   |     
-|------------------------------------| 
-| ![splash.png](./assets/splash.png) |
+| Application Demo                   |
+|------------------------------------|
+| ![App.mp4](https://github.com/user-attachments/assets/c480d5ba-5e8b-459d-8ddb-f107ee21f46b) |
 
 ## ☢️ Usage
 
@@ -116,7 +90,4 @@ Last News app is your personalized news aggregator, designed to keep you informe
 
 ## Get it on Google Play Soon
 
-<a href="https://play.google.com/store/apps/details?id=com.omda.halqetElZekr">
-<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=60px />
-</a>
-
+<a href="https://play.google.com/store/apps/details?id=com.omda.halqetElZekr"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=60px /></a>
