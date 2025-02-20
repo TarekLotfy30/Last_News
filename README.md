@@ -46,25 +46,25 @@ Last News app is your personalized news aggregator, designed to keep you informe
 
 | Splash Screen                      |Onboarding                      |
 |------------------------------------|--------------------------------|
-| ![splash.png](https://github.com/user-attachments/assets/50323926-d69b-4ea2-b47c-ec070bbce755) | ![Onboarding.png](https://github.com/user-attachments/assets/6e66bf5a-56aa-41f6-b54a-b279fe0b16f2)|
+| <img src="https://github.com/user-attachments/assets/50323926-d69b-4ea2-b47c-ec070bbce755" width="205" /> | <img src="https://github.com/user-attachments/assets/6e66bf5a-56aa-41f6-b54a-b279fe0b16f2" width="205"/> |
 
 | Home (News View)                   | Home (News View)               |
 |------------------------------------|--------------------------------|
-| ![splash.png](https://github.com/user-attachments/assets/1860d347-5eb7-48a8-bf58-3811e620dc52) | ![home.png](https://github.com/user-attachments/assets/96d8fabc-0dbc-47da-bb84-09b9069c032d) |
+| <img src="https://github.com/user-attachments/assets/1860d347-5eb7-48a8-bf58-3811e620dc52" width="205" /> | <img src="https://github.com/user-attachments/assets/96d8fabc-0dbc-47da-bb84-09b9069c032d" width="205" /> |
 
 | Category News                      | Hot Updates                    |
 |------------------------------------|------------------------------- |
-| ![splash.png](https://github.com/user-attachments/assets/b6784182-2e01-43e1-a7cd-cd7e75e7b850) | ![home.png](https://github.com/user-attachments/assets/156522e6-0261-499e-8ec1-bcd52a16a9e7) |
+|<img src="https://github.com/user-attachments/assets/b6784182-2e01-43e1-a7cd-cd7e75e7b850" width="205" />| <img src="https://github.com/user-attachments/assets/156522e6-0261-499e-8ec1-bcd52a16a9e7" width="205" />|
 
 | Search Screen                      | Profile                        |
 |------------------------------------|:------------------------------:|
-| ![splash.png](https://github.com/user-attachments/assets/3191c68b-21fc-41df-97c3-e74f40e6d759) | ![home.png](https://github.com/user-attachments/assets/0da7423e-dea5-4d5b-a6e4-d22c10a2574a) |
+| <img src="https://github.com/user-attachments/assets/3191c68b-21fc-41df-97c3-e74f40e6d759" width="205" /> | <img src="https://github.com/user-attachments/assets/0da7423e-dea5-4d5b-a6e4-d22c10a2574a" width="205" /> |
 
 ### :video_camera: Demo
 
 | Application Demo                   |
 |------------------------------------|
-| ![App.mp4](https://github.com/user-attachments/assets/c480d5ba-5e8b-459d-8ddb-f107ee21f46b) |
+| <video src="https://github.com/user-attachments/assets/f250b51b-3996-4b22-9ef5-61145d0091bd" controls width="600"></video> |
 
 ## ☢️ Usage
 
