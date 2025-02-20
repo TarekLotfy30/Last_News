@@ -43,7 +43,7 @@ class ForegroundContainer extends StatelessWidget {
               height: 4.h,
               width: 66.w,
               decoration: BoxDecoration(
-                color: AppColors.lightGray.withOpacity(0.5),
+                color: AppColors.lightGray.withValues(alpha: 0.5),
                 borderRadius: BorderRadius.circular(70).r,
               ),
             ),
@@ -82,7 +82,6 @@ class ForegroundContainer extends StatelessWidget {
               },
               builder: (context, state) {
                 return StreamBuilder<ConnectivityResult>(
-                  stream: Connectivity().onConnectivityChanged,
                   builder: (context, snapshot) {
                     return AppButton(
                       onPressed: () async {
@@ -114,6 +113,7 @@ class ForegroundContainer extends StatelessWidget {
                       ),
                     );
                   },
+                  stream: null,
                 );
               },
             ),
